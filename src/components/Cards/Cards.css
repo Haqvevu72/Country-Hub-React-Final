@@ -1,0 +1,19 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countries {
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(4,300px);
+  gap: 20px;
+}
+
+.more button {
+    background-color: transparent;
+    border-radius: 12px;
+    width: 120px;
+}
+

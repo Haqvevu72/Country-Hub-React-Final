@@ -1,0 +1,54 @@
+header {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .hd-elem-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .hd-elem-1 .hd-elem-1-2 a{
+  font-size: 28px;
+  color: #f73859;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+header .hd-elem-2 button {
+  border: none;
+  background-color: #ffffff;
+}
+
+header .hd-elem-2 button:active {
+  transform: scale(0.95);
+  background-color: transparent;
+}
+
+header .hd-elem-2 button:hover {
+  background-color: transparent;
+}
+
+/* Offcanvas styling */
+.offcanvas-body{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.offcanvas-body .offcanvas-elem{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.form-select{
+  height: 35px;
+}
+
+
+
+
+
